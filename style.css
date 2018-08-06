@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#flex-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item{
+  width: 100%;
+}
+
+.name-field{
+  width: 100%;
+}
+
+.result-field{
+  width: 100%;
+}
+
+#btn-exe-container{
+  text-align: right;
+}
+
+
+#player-num {
+  padding: 0 1.2rem;
+  font-size: 2.5rem;
+  vertical-align: middle;
+}

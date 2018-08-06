@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width">
+  <title>Splatoon2 Weapon Randomizer</title>
+  <meta name="description" content="ブキランダム">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="sakura-dark.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Splatoon2 Weapon Randomizer</h1>
+  <div id="player-select">
+    <div id="number-select-container">
+      <button id="btn-dec">－</button>
+      <span id="player-num">1</span>
+      <button id="btn-inc">＋</button>
+    </div>
+    <div id="btn-exe-container">
+      <button id="btn-exe">ランダム！</button>
+    </div>
+  </div>
+  <div id="flex-container">
+    <div class="flex-item">
+      <fieldset>
+        <legend class="field-id">Player1</legend>
+        <input type="text" class="name-field" placeholder="NAME">
+        <p class="result-field">ブキ：<span class="weapon-name"></span></p>
+      </fieldset>
+    </div>
+  </div>
+</body>
+</html>
