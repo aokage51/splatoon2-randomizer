@@ -110,10 +110,12 @@ const weapons = [
   'キャンピングシェルターソレーラ',
   'スパイガジェット',
   'スパイガジェットソレーラ',
-];
+].sort();
+
+const mt = new MersenneTwister();
 
 const getRandomWeapon = 
-  () => weapons[Math.round(Math.random() * 10000) % weapons.length];
+  () => weapons[Math.round(mt.random() * 10000 * weapons.length) % weapons.length];
 
 const PlayerInfo = {
   getElement: function(){
